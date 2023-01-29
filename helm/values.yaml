@@ -1,0 +1,11 @@
+application:
+  name: django-rest
+  namespace: django
+  port: 8000
+image:
+  image_url: 542416788422.dkr.ecr.us-east-1.amazonaws.com/django-rest
+  tag: latest
+resources:
+  requests:
+    memory: 80Mi  
+    cpu: 50m
