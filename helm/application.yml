@@ -13,7 +13,7 @@ spec:
         - values.yaml
     path: helm
     repoURL: >-
-      https://github.com/igor-dantas/django-kubernetes.git
+      git@github.com:igor-dantas/django-kubernetes.git
     targetRevision: main
   project: default
   syncPolicy:
