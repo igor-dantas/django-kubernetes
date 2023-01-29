@@ -10,5 +10,5 @@ data:
   repositories: |
     - url: git@github.com:igor-dantas/django-kubernetes.git
       sshPrivateKeySecret:
-        name: my-deploy-secret
-        key: privateKey
+          key: privateKey
+          name: my-deploy-secret
